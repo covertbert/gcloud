@@ -1,6 +1,6 @@
-name: 'Google Cloud Platform (GCP) CLI - gcloud'
-description: 'GitHub Action with all the components of the Google Cloud SDK'
-author: 'Serhiy Mytrovtsiy <mitrovtsiy@ukr.net>'
+name: 'Google Cloud Platform (GCP) CLI - covertbert'
+description: 'GitHub Action with all the components of the Google Cloud SDK, including beta components'
+author: 'Bertie Blackman <blackmanrgh@gmail.com>'
 branding:
   icon: 'cloud'
   color: 'blue'
