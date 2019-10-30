@@ -8,7 +8,7 @@ GitHub Action which allows interacting with [Google Cloud Platform](https://clou
 To use gcloud in your workflow use:
 
 ```yaml
-- uses: actions-hub/gcloud@master
+- uses: covertbert/gcloud@master
   env:
     PROJECT_ID: test
     APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
@@ -36,7 +36,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - uses: actions-hub/gcloud@master
+      - uses: covertbert/gcloud@master
         env:
           PROJECT_ID: ${{secrets.GCLOUD_PROJECT_ID}}
           APPLICATION_CREDENTIALS: ${{secrets.GOOGLE_APPLICATION_CREDENTIALS}}
